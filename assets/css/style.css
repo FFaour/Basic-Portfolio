@@ -1,0 +1,130 @@
+html,body {
+    background-image: url("../images/real_cf.png");
+    background-repeat: repeat;
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+.cyanonwhite {
+  color: #4aaaa5;
+  background: white;
+}
+
+.whiteoncyan {
+  color: white;
+  background: #4aaaa5;
+}
+
+.pagealignment {
+  margin-left: 280px;
+  Margin-right: 200px;
+}
+
+a:link {
+  color: #4aaaa5;
+}
+
+a:visited {
+  color: #4aaaa5;
+}
+
+a:hover {
+  color: blue;
+}
+
+a:active {
+  color: red;
+}  
+
+h1 {
+  font-size: 30px;
+      
+}
+
+h2 {
+  font-size: 36px;
+}
+
+.myname {
+  float: left;
+  text-align: center;
+  position: relative;
+  line-height: 315%;   
+}
+
+.selectionbar{
+  font-family: sans-serif, "Times New Roman", serif;
+  text-align: center;
+  margin: 0;
+  line-height: 565%;
+  width: 100%;
+  padding-bottom: 0px;
+}
+
+#divider {
+  background-color: #cccccc;
+  height: 3px;
+  margin-top: 0;
+  position: relative;
+}
+
+.introduction {
+  color: white;
+  font-size: 20px;
+  z-index: 100;
+}
+
+.paragraphwrapper {
+  background-color: white;
+  width: 960px;
+  padding: 20px;
+  margin-top: 50px;
+  margin-right: 30px;
+  line-height: 200%;
+}
+
+.paragraphtitle {
+  color: #4aaaa5;
+  background: white;
+  line-height: 200%;
+  font-size: 28px;
+}
+
+.portrait {
+  float: left;
+  padding-right: 20px;
+}
+
+.introduction {
+  color: black;
+}
+
+#footerline {
+  background-color: #4aaaa5;
+  height: 8px;
+  margin: 0;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.footerbox {
+  background-color: darkslategrey;
+  height: 80px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+#copyright {
+  text-align: center;
+  color: lightgray;
+}
+
+.contactform {
+  text-size: 30px;
+  width: 960px;
+}
+
+input {
+  width: 99%;
+}
