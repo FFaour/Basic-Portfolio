@@ -19,6 +19,16 @@ html,body {
   Margin-right: 200px;
 }
 
+.tabalignment {
+  margin-left: 480px;
+  Margin-right: 200px;
+}
+
+.pagealignment2 {
+  margin-left: 450px;
+  Margin-right: 200px;
+}
+
 a:link {
   color: #4aaaa5;
 }
@@ -64,6 +74,7 @@ h2 {
   background-color: #cccccc;
   height: 3px;
   margin-top: 0;
+  margin-bottom: 20px;
   position: relative;
 }
 
@@ -105,6 +116,7 @@ h2 {
   position: relative;
   top: 0;
   left: 0;
+  z-index: 2000;
 }
 
 .footerbox {
@@ -113,6 +125,7 @@ h2 {
   position: fixed;
   width: 100%;
   bottom: 0;
+  z-index: 2000;
 }
 
 #copyright {
@@ -132,6 +145,35 @@ h2 {
   line-height: 150%;
 }
 
+.imagewrapper {
+  height: 950px;
+  width: 700px;
+  margin-left: 300px;
+  background-color: white;
+  margin: 0 auto;
+}
+
+.column {
+  margin: 15px 15px 0px 15px;
+  float: left;
+  width: 300px;
+}
+
+.column img {
+  width: 100%;
+  height: auto;
+  z-index: 0;
+}
+
+.desc {
+  font-size: 24px;
+  line-height: 250%;
+  width: 300px;
+  text-align: center;
+  position: relative;
+  top: -80px;
+  z-index: 1000;
+}
 input {
   width: 99%;
 }
